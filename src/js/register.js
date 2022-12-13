@@ -50,7 +50,7 @@ let isValidUsername = (value) => {
     showError(INPUTS_ERRORS.username_error, USERNAME_ERRORS.general);
     return false;
   }
-  if (!ValidUsernameLength(value)) {
+  if (!validUsernameLength(value)) {
     showError(INPUTS_ERRORS.username_error, USERNAME_ERRORS.length);
     return false;
   }
@@ -109,7 +109,7 @@ let isValidPasswordConfirmation = (value) => {
 
 let onlyLettersAndNumbers = (username) => /^[a-z0-9]+$/i.test(username);
 
-let ValidUsernameLength = (username) =>
+let validUsernameLength = (username) =>
   username.length < 5 || username.length > 15 ? false : true;
 
 let isNotNumber = (username) => /[a-z]/i.test(username);
