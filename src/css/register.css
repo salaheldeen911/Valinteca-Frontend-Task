@@ -1,0 +1,474 @@
+* {
+  padding: 0;
+  margin: 0 !important;
+  -webkit-box-sizing: border-box !important;
+          box-sizing: border-box !important;
+}
+
+#site::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background: url(../images/gradientbackground.png), #FFFFFF;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.60;
+}
+
+#site {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 200px 100px;
+  gap: 10px;
+  position: relative;
+  height: 1056px;
+}
+
+#site #createAccount {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 60px;
+  gap: 60px;
+  width: 1080px;
+  height: 656px;
+  background: rgba(245, 247, 255, 0.85);
+  border-radius: 10px;
+}
+
+#site #createAccount #imagePlaceholder {
+  width: 450px;
+  height: 536px;
+  border-radius: 10px;
+}
+
+#site #createAccount #imagePlaceholder img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+#site #createAccount #content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+  width: 450px;
+  height: 536px;
+}
+
+#site #createAccount #content #headers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+  width: 450px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+#site #createAccount #content #headers #header {
+  width: 450px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-family: ' Abdoullah Ashgar EL-kharef';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: capitalize;
+  color: #2D2D2D;
+}
+
+#site #createAccount #content #headers #sub-header {
+  width: 450px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #1F1249;
+}
+
+#site #createAccount #content #register {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0px;
+  gap: 23px;
+  width: 450px;
+  height: 432px;
+}
+
+#site #createAccount #content #inputsHoldaer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0px;
+  gap: 19px;
+  width: 100%;
+  height: 270px;
+}
+
+#site #createAccount #content #inputsHoldaer .input-holder {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 8px 20px;
+  gap: 12px;
+  width: 100%;
+  height: 60px;
+  background: #FFFFFF;
+  border: 1px solid #DBE3FF;
+  border-radius: 10px;
+  margin: 1px 0;
+}
+
+#site #createAccount #content #inputsHoldaer .input-holder .icon-holder {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  width: 29px;
+  height: 20px;
+}
+
+#site #createAccount #content #inputsHoldaer .input-holder .icon-holder #user-icon {
+  width: 23px;
+  height: 20px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#site #createAccount #content #inputsHoldaer .input-holder .icon-holder #user-icon .vector {
+  position: absolute;
+  left: 5px;
+  right: 21.88%;
+  top: 9.38%;
+  bottom: 34.38%;
+  border-radius: 50%;
+  border: 0.3px solid #9CADF2;
+  height: 12px;
+  width: 12px;
+}
+
+#site #createAccount #content #inputsHoldaer .input-holder .icon-holder #user-icon .vector2 {
+  position: absolute;
+  left: 8.98%;
+  right: 8.98%;
+  top: 65%;
+  bottom: 12.5%;
+  border-radius: 50%;
+  border-top: 0.3px solid #9CADF2;
+  height: 20px;
+  width: 20px;
+}
+
+#site #createAccount #content #inputsHoldaer .input-holder .icon-holder #email-icon-holder,
+#site #createAccount #content #inputsHoldaer .input-holder .icon-holder .password-icon-holder {
+  width: 23px;
+  height: 20px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#site #createAccount #content #inputsHoldaer .input-holder .icon-holder #email-icon-holder #email-icon,
+#site #createAccount #content #inputsHoldaer .input-holder .icon-holder #email-icon-holder .password-icon,
+#site #createAccount #content #inputsHoldaer .input-holder .icon-holder .password-icon-holder #email-icon,
+#site #createAccount #content #inputsHoldaer .input-holder .icon-holder .password-icon-holder .password-icon {
+  color: #9CADF2;
+  font-size: 18px;
+}
+
+#site #createAccount #content #inputsHoldaer .input-holder .icon-holder .separator {
+  border-right: .1px solid #9CADF2;
+  height: 100%;
+  opacity: .8;
+}
+
+#site #createAccount #content #inputsHoldaer .input-holder input {
+  border: none;
+  width: 100%;
+  height: 44px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #3B3B3B;
+}
+
+#site #createAccount #content #inputsHoldaer .input-holder input:focus {
+  outline: none;
+}
+
+#site #createAccount #content #inputsHoldaer .input-holder .error {
+  position: absolute;
+  top: 58px;
+  line-height: 1;
+  margin: 1px;
+  color: red;
+  display: none;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  left: 0;
+}
+
+#site #createAccount #content #inputsHoldaer .input-holder .error.active {
+  display: block;
+}
+
+#site #createAccount #content #submit-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+  gap: 20px;
+  height: 60px;
+  width: 100%;
+}
+
+#site #createAccount #content #submit-holder button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px 50px;
+  gap: 12px;
+  width: 100%;
+  height: 60px;
+  background: linear-gradient(113.87deg, #2663DF 14.81%, #758FF0 88.76%);
+  -webkit-box-shadow: 0px 6px 18px #9CADF2;
+          box-shadow: 0px 6px 18px #9CADF2;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+#site #createAccount #content #submit-holder button span {
+  width: 100%;
+  height: 22px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140%;
+  display: block;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#site #createAccount #content #submit-holder button:focus {
+  outline: none;
+}
+
+@media only screen and (max-width: 990px) {
+  #site {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 0px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  #site #createAccount {
+    background: rgba(245, 247, 255, 0.85);
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 40px 0px;
+    gap: 40px;
+    width: 375px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    -webkit-box-pack: normal;
+        -ms-flex-pack: normal;
+            justify-content: normal;
+  }
+  #site #createAccount #imagePlaceholder {
+    width: 315px;
+    height: 315px;
+  }
+  #site #createAccount #content {
+    width: 100%;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    gap: 0;
+  }
+  #site #createAccount #content #headers {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 16px;
+    width: 315px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
+  }
+  #site #createAccount #content #headers #header {
+    display: block;
+    text-align: center;
+    width: 315px;
+    height: 38px;
+    font-size: 32px;
+  }
+  #site #createAccount #content #headers #sub-header {
+    width: 315px;
+    height: 52px;
+    font-size: 16px;
+    text-align: center;
+  }
+  #site #createAccount #content #register {
+    width: 315px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  #site #createAccount #content #register #inputsHoldaer {
+    gap: 20px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}
+/*# sourceMappingURL=register.css.map */

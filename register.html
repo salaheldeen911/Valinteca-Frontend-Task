@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="src/css/register.css">
+        <script defer src="src/js/register.js"></script>
+        <title>Register Page</title>
+    </head>
+
+    <body>
+        <div id="site">
+            <div id="createAccount">
+                <div id="imagePlaceholder">
+                    <img src="https://source.unsplash.com/random?sig=1" alt="Random image" />
+                </div>
+                <div id="content">
+                    <div id="headers">
+                        <h1 id="header">Create Account</h1>
+                        <p id="sub-header">Go ahead and sign up, let everyone know how awesome you are!</p>
+                    </div>
+                    <form id="register">
+                        <div id="inputsHoldaer">
+                            <div class="input-holder">
+                                <div class="icon-holder">
+                                    <span id="user-icon" aria-hidden="true">
+                                        <span class="vector"></span>
+                                        <span class="vector2"></span>
+                                    </span>
+                                    <span class="separator"></span>
+                                </div>
+                                <input class="input form-control w-100" id="username" name="username" type="text"
+                                       placeholder="Username">
+                                <p class="error" id="username_error">error</p>
+                            </div>
+                            <div class="input-holder">
+                                <div class="icon-holder">
+                                    <span id="email-icon-holder" aria-hidden="true">
+                                        <i id="email-icon" class="fa fa-envelope-o" aria-hidden="true"></i>
+                                    </span>
+                                    <span class="separator"></span>
+                                </div>
+                                <input class="input form-control w-100" id="email" name="email" type="text"
+                                       placeholder="Email">
+                                <p class="error" id="email_error"></p>
+                            </div>
+                            <div class="input-holder">
+                                <div class="icon-holder">
+                                    <span class="password-icon-holder" aria-hidden="true">
+                                        <i class="password-icon fa fa-lock" aria-hidden="true"></i>
+                                    </span>
+                                    <span class="separator"></span>
+                                </div>
+                                <input class="input form-control w-100" id="password" name="password" type="password"
+                                       placeholder="Password">
+                                <p class="error" id="password_error"></p>
+                            </div>
+                            <div class="input-holder">
+                                <div class="icon-holder">
+                                    <span class="password-icon-holder" aria-hidden="true">
+                                        <i class="password-icon fa fa-lock" aria-hidden="true"></i>
+                                    </span>
+                                    <span class="separator"></span>
+                                </div>
+                                <input class="input form-control w-100" id="password_confirmation"
+                                       name="password_confirmation" type="password" placeholder="Password Confirmation">
+                                <p class="error" id="password_confirmation_error"></p>
+                            </div>
+                        </div>
+                        <div id="submit-holder">
+                            <button id="submit" type="submit">
+                                <span>Create Account</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

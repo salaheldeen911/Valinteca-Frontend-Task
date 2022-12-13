@@ -1,0 +1,201 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background: url(../images/gradientbackground.png), #FFFFFF;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.60;
+}
+
+#home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 200px 100px;
+  gap: 10px;
+  position: relative;
+  height: 976px;
+}
+
+#home #succeed {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 60px;
+  gap: 60px;
+  width: 1080px;
+  height: 576px;
+  background: rgba(245, 247, 255, 0.85);
+  border-radius: 10px;
+}
+
+#home #succeed #imagePlaceholder {
+  width: 450px;
+  height: 456px;
+  border-radius: 10px;
+}
+
+#home #succeed #imagePlaceholder img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+#home #succeed #content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+  width: 450px;
+  height: 96px;
+}
+
+#home #succeed #content #headers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+  width: 450px;
+  height: 96px;
+}
+
+#home #succeed #content #headers #main-header {
+  width: 450px;
+  height: 50px;
+  font-family: ' Abdoullah Ashgar EL-kharef';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 120%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: capitalize;
+  color: #2D2D2D;
+}
+
+#home #succeed #content #headers #sub-header {
+  width: 450px;
+  height: 26px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #1F1249;
+}
+
+@media only screen and (max-width: 990px) {
+  #home {
+    height: 733px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 0px;
+  }
+  #home #succeed {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 40px 0px;
+    gap: 130px;
+    width: 375px;
+    height: 733px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  #home #succeed #imagePlaceholder {
+    width: 322px;
+    height: 315px;
+    -ms-grid-column-align: start;
+        justify-self: start;
+  }
+  #home #succeed #imagePlaceholder img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  #home #succeed #content {
+    display: block;
+    gap: 20px;
+    width: 315px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  #home #succeed #content #headers {
+    width: 100%;
+  }
+  #home #succeed #content #headers #main-header {
+    display: block;
+    text-align: center;
+    width: 315px;
+    height: 38px;
+    font-size: 32px;
+  }
+  #home #succeed #content #headers #sub-header {
+    width: 315px;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=home.css.map */
